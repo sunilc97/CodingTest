@@ -17,6 +17,10 @@ namespace WhetherPOC
         {
             InitializeComponent();
 
+            Name.Text = whether.name;
+            Country.Text = whether.sys.country;
+
+      
             _sqLiteConnection = DependencyService.Get<ISQLite>().GetConnection();
 
             _sqLiteConnection.CreateTable<WhetherDataModel>();

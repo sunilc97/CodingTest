@@ -10,9 +10,21 @@
 	<ContentPage.Content>
         <StackLayout VerticalOptions="Start">
        <maps:Map x:Name="googlemap" Grid.Row="1" Grid.Column="0" IsShowingUser="true" MapType="Street" HeightRequest="200" HasScrollEnabled="true" HasZoomEnabled="true" />
-       <StackLayout x:Name="dataName">
+        <StackLayout x:Name="dataContent" Orientation="Horizontal">
+        <Label Text="Location:">  </Label>
+        <Label x:Name="Name">  </Label>
 
             </StackLayout>
+            <StackLayout x:Name="DataCountry" Orientation="Horizontal">
+        <Label Text="Country:">  </Label>
+        <Label x:Name="Country">  </Label>
+
+            </StackLayout>
+            <StackLayout x:Name="dataName">
+                    <Label Text="Favorites" Margin="0,40,0,0" FontAttributes="Bold">  </Label>
+          
+            </StackLayout>
+            
         </StackLayout>
 	</ContentPage.Content>
 </ContentPage>
