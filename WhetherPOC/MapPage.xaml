@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+     xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+    x:Class="WhetherPOC.MapPage">
+     <ContentPage.ToolbarItems>
+        <ToolbarItem Order="Primary" Priority="0" Text="Add Favorite" Clicked="addFavorite"/>
+
+    </ContentPage.ToolbarItems>
+	<ContentPage.Content>
+        <StackLayout VerticalOptions="Start">
+       <maps:Map x:Name="googlemap" Grid.Row="1" Grid.Column="0" IsShowingUser="true" MapType="Street" HeightRequest="200" HasScrollEnabled="true" HasZoomEnabled="true" />
+       <StackLayout x:Name="dataName">
+
+            </StackLayout>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

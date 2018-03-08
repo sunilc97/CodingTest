@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.Whether.WhetherPOC">
+	<uses-sdk android:minSdkVersion="15" />
+	<application android:label="WhetherPOC">
+		<meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyAtpBcRpLT-O2obq3_EfxYc8KjYqAaaVU4" />
+		<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+	</application>
+</manifest>

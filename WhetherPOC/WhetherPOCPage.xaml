@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:WhetherPOC" x:Class="WhetherPOC.WhetherPOCPage">
+	<StackLayout VerticalOptions="Center" Padding="20,0,20,0" Spacing="20">
+        
+        <Label Text="Whether Data" HorizontalOptions="Center" ></Label>
+        <Entry x:Name="txtzipCode" HorizontalOptions="FillAndExpand"></Entry>
+        <Button Text="Submit" Clicked="submit_Tapped" HorizontalOptions="FillAndExpand" BackgroundColor="Olive" TextColor="Maroon"></Button>
+    </StackLayout>
+</ContentPage>
